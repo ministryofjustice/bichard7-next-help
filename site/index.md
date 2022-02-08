@@ -21,3 +21,4 @@ Welcome to the Bichard 7 documentation site.
     * [How Bichard updates the PNC](bichard-functionality/how-bichard-updates-pnc/)
     * [Exceptions](bichard-functionality/exceptions/)
     * [Triggers](bichard-functionality/triggers/)
+- [Supervisors](supervisors/)
