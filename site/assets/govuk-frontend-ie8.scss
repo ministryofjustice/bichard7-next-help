@@ -1,0 +1,7 @@
+---
+---
+
+$baseurl: "{{ site.baseurl }}";
+$govuk-assets-path: "{{ site.baseurl }}/govuk-frontend-versionGoesHere/assets/";
+
+@import "govuk/all-ie8";
