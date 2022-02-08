@@ -17,3 +17,6 @@ Welcome to the Bichard 7 documentation site.
     * [Removing a user](user-management/removing-users/)
 - [Support](support/)
 - [Bichard functionality](bichard-functionality/)
+    * [Useful Tips](bichard-functionality/useful-tips/)
+    * [How Bichard updates the PNC](bichard-functionality/how-bichard-updates-pnc/)
+    * [Exceptions](bichard-functionality/exceptions/)

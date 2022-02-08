@@ -99,7 +99,7 @@ The search facility will allow users to lookup records via a defendant name or b
 
 It should also be noted that searches are NOT case sensitive.
 
-![Bichard screenshot](image1.png)
+![Bichard screenshot](image2.png)
 
 Below are some specific examples of how to search for a defendant and court.
 
@@ -140,3 +140,39 @@ The search works on a single Error Code or Trigger Code. If the search string st
 If a trigger code has been searched for then the summary list will only show the trigger entries (i.e. it will not show the exception details, should an exception also exist on the record). If an error code has been searched for the summary list will only show exceptions.
 
 The reason field on the Summary List will be populated with the text short description of the trigger code/the error code that the user searched for (rather than the first error/trigger on that record, as is displayed in the unfiltered listing). 
+
+## Reallocating a case to another Force Area
+
+If a case is received and your force is either no longer the owner of the case, or your force has received the case as the correct force could not be identified from the ASN/PTI-URN, then the case can be redirected to the correct force.
+
+Select and click on the name of the defendant you wish to transfer, then click on the Reallocate Case button.
+
+![Reallocating a case](image3.png)
+
+When clicking on the Reallocate Case button, the following screen appears and allows you to select a new force. 
+
+![Selecting a force](image4.png)
+
+Click on the OK button after selecting a new Force. If the Force is different than the original force on the case, you will be returned to the Summary List screen, where the case is no longer listed.
+
+Note that, if you want to add a note explaining why the case has been reallocated, you would have to do it before selecting the Reallocate Case button. 
+
+## Adding Notes To Cases
+
+The notes screen is a useful feature that allows you to document your progress in resolving specific exceptions. This allows users to easily share information in the portal, rather than relying on separate emails.
+
+The notes screen shows portal activity and allows you to enter details in a dialogue box, clicking on the ‘add note’ button. The note is time stamped and the user identified. The maximum number of characters that can be entered into the Notes field is 1000.
+
+Note: Text in the Notes Field is not archived and therefore not recoverable once the case has been removed from the Portal, which will occur 35 days after being marked as complete. 
+
+![Adding notes](image5.png)
+
+All notes added to a case, whether they are user entered notes or system generated notes can be viewed by clicking on the 'Notes' tab as above.
+
+You can view the last user entered note on a case from the Error List screen by hovering your mouse over the Icon in the Note field column. The note will be visible for approximately 10 seconds; you can view the note again by moving your mouse back over the Note icon. Only the first 100 characters of the note will be displayed. If the note is longer than 100 characters and you wish to view the full note, you can do so by selecting the case and viewing the ‘Notes’ tab. 
+
+![Viewing latest note](image5.png)
+
+If a note is longer than 1000 characters it will appear split into multiple notes. The notes will be split at the nearest word boundary to 1000 characters, to prevent a word from being cut in half.
+
+Each new note will start with a count to indicate which note in the sequence it is (i.e. “(1/2) …”) and the new notes will be ordered such that when read, they follow on logically from one to the next. If a new note has a note after it in the sequence (i.e. note 1 out of 2), it will have an ellipsis (…) appended to the note text to indicate that the note/sentence continues in the next note. Similarly, if a new note has a note prior to it in the sequence (i.e. note 2 out of 2), it will have an ellipsis prepended to the note text to indicate that it is the continuation of a previous note/sentence.
