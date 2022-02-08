@@ -2,6 +2,6 @@
 ---
 
 $baseurl: "{{ site.baseurl }}";
-$govuk-assets-path: "{{ site.baseurl }}/govuk-frontend-versionGoesHere/assets/";
+$govuk-assets-path: "{{ site.baseurl }}/assets/govuk/assets/";
 
 @import "govuk/all-ie8";
