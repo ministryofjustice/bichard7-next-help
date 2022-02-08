@@ -3,7 +3,7 @@ layout: default
 title: Creating a new user
 ---
 
-To create a new Bichard user in your Force, navigate to the User List page (accessed by clicking “User Management” option after the initial log-in to Bichard) and click the 'Add user' button:
+To create a new Bichard user in your Force, navigate to the User List page (accessed by clicking "User Management" option after the initial log-in to Bichard) and click the "Add user" button:
 
 ![Add user button](image1.png)
 

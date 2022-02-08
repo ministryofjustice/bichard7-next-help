@@ -23,7 +23,7 @@ You can also select which Triggers the user should be able to see, as shown belo
 
 ![Triggers form](image3.png)
 
-Once you have filled in the user details, click “Save” and the requested changes will take effect once the selected user has logged out and back in to Bichard (the logout/login is required for the changes to take effect).
+Once you have filled in the user details, click "Save" and the requested changes will take effect once the selected user has logged out and back in to Bichard (the logout/login is required for the changes to take effect).
 
 The user details are now updated:
 

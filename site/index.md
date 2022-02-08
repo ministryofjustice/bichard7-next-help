@@ -15,3 +15,5 @@ Welcome to the Bichard 7 documentation site.
     * [Editing the details of a user](user-management/editing-users/)
     * [Creating a new user](user-management/creating-users/)
     * [Removing a user](user-management/removing-users/)
+- [Support](support/)
+- [Bichard functionality](bichard-functionality/)

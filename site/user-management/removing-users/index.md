@@ -3,7 +3,7 @@ layout: default
 title: Removing a user
 ---
 
-To remove a user from your Force (for example if they have transferred to another Force), navigate to the “User List” page, accessed via the “User Management” option from the initial screen presented upon log-in.
+To remove a user from your Force (for example if they have transferred to another Force), navigate to the "User List" page, accessed via the "User Management" option from the initial screen presented upon log-in.
 
 Now click on the username of a specific user, which you can find in the list or via the search option:
 

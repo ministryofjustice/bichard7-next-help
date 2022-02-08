@@ -13,7 +13,7 @@ Below is a screenshot of the first screen you will be presented with:
 
 ![Login page](image1.png)
 
-To login, you must enter your email address, and click “Sign in”.
+To login, you must enter your email address, and click "Sign in".
 
 Once you have done this, you will receive an email (from no-reply@mail.bichard7.service.justice.gov.uk) which will look like this:
 
@@ -35,9 +35,9 @@ Once you’ve entered the code from the email along with your Bichard password, 
 
 Here you will see any service related messages and announcements related to Bichard, as well as options to log a support ticket.
 
-User Managers will be able to select the “User Management” option which is explained later in this guide.
+User Managers will be able to select the "User Management" option which is explained later in this guide.
 
-On the screen above, you will be able to click the “Access Bichard” button to be directed to the Bichard homepage:
+On the screen above, you will be able to click the "Access Bichard" button to be directed to the Bichard homepage:
 
 ![Bichard home](image6.png)
 

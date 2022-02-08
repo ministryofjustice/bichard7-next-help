@@ -7,7 +7,7 @@ If you are a User Manager logging in to Bichard, you can select the "User Manage
 
 ![Home screen](image1.png)
 
-You will then be directed to the “User List” page where you are shown all users in your Force:
+You will then be directed to the "User List" page where you are shown all users in your Force:
 
 ![User list](image2.png)
 
