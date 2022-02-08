@@ -22,3 +22,4 @@ Welcome to the Bichard 7 documentation site.
     * [Exceptions](bichard-functionality/exceptions/)
     * [Triggers](bichard-functionality/triggers/)
 - [Supervisors](supervisors/)
+- [Glossary](glossary/)
