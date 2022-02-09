@@ -29,7 +29,7 @@ You can now copy and paste the code from the email into the corresponding input 
 
 ![Sign in page](image4.png)
 
-Once you’ve entered the code from the email along with your Bichard password, you will see the following screen:
+Once you've entered the code from the email along with your Bichard password, you will see the following screen:
 
 ![Home page](image5.png)
 

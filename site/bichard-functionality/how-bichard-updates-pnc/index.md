@@ -9,7 +9,7 @@ Bichard 7 receives CJS result codes and result information from Libra and perfor
 |-------------|--------------------|----------|-------------|
 | All | Court code | Arrest summons, Disposal history, Remand | Identifier for the court |
 | All | Court date | Arrest summons, Disposal history, Remand | The Hearing Date         |
-| All | Record owner | | All records created by Bichard 7 will be 'owned' by FFYZ, where FF is the force id from the URN/ASN or court and “YZ” is used to indicate Bichard 7. |
+| All | Record owner | | All records created by Bichard 7 will be 'owned' by FFYZ, where FF is the force id from the URN/ASN or court and "YZ" is used to indicate Bichard 7. |
 | Offence | Plea | Disposal history | Guilty/Not Guilty/No Plea |
 | Offence | Adjudication | Disposal history | Guilty/Not Guilty/Non Conviction |
 | Offence | Committed on bail | Disposal history | Forced to "N" with trigger if PNC warns us the defendant was on bail |

@@ -15,13 +15,13 @@ Triggers are categorized into two groups: Pre-update and Post-update. The pre-up
 
 Triggers are actioned outside the portal and should then be marked as complete in the portal.
  
-Trigger processing is totally independent of the automated resulting/exception handling process. A result should be automatically updated on the PNC even if it is also being routed to the portal as a ‘trigger’. All triggers on the error list start with the code PR or PS. You can filter for specific triggers by searching for them using their FULL code, e.g. 'TRPR0001'.
+Trigger processing is totally independent of the automated resulting/exception handling process. A result should be automatically updated on the PNC even if it is also being routed to the portal as a 'trigger'. All triggers on the error list start with the code PR or PS. You can filter for specific triggers by searching for them using their FULL code, e.g. 'TRPR0001'.
 
 Select and click on the name of the defendant for the trigger you wish to update.
 
 ![Trigger list](image1.png)
 
-A yellow triangle in the trigger tab indicates action is required and the status is shown as ‘outstanding’.
+A yellow triangle in the trigger tab indicates action is required and the status is shown as 'outstanding'.
 
 ![View Trigger](image2.png)
 
@@ -29,15 +29,15 @@ Click on the trigger tab and the update screen is shown. The text next to the tr
 
 ![Trigger list on record](image3.png)
 
-When you have successfully completed that action check the box immediately to the right of the outstanding status (where the case has several triggers the “select all triggers” option can be used as a quick way to select all outstanding triggers). Click on the ‘mark selected complete’ button, this changes the status to ‘complete’.
+When you have successfully completed that action check the box immediately to the right of the outstanding status (where the case has several triggers the "select all triggers" option can be used as a quick way to select all outstanding triggers). Click on the 'mark selected complete' button, this changes the status to 'complete'.
 
 Note that only those triggers which have been set up in your profile will have a checkbox. Any other outstanding triggers on the case will need to be completed by a user from the appropriate team.
 
 ![Complete triggers](image4.png)
 
-If, having clicked the ‘mark selected as complete’ button, there are no further actions available – all the triggers within your profile have been completed and there is no exception outstanding (or your role is a trigger handler so you cannot resolve it) – then you will be returned to the error report list and this case will be removed from your list.
+If, having clicked the 'mark selected as complete' button, there are no further actions available – all the triggers within your profile have been completed and there is no exception outstanding (or your role is a trigger handler so you cannot resolve it) – then you will be returned to the error report list and this case will be removed from your list.
 
-If you wish, you can leave the case partially resolved with some of the triggers (or an exception) outstanding by clicking one of the ‘Return To List’ buttons which takes you to a confirmation screen. Clicking either ‘yes’ or ‘no’ takes you to your error report list, but ‘no’ does not save the changes so any triggers which you marked as complete will still be outstanding.
+If you wish, you can leave the case partially resolved with some of the triggers (or an exception) outstanding by clicking one of the 'Return To List' buttons which takes you to a confirmation screen. Clicking either 'yes' or 'no' takes you to your error report list, but 'no' does not save the changes so any triggers which you marked as complete will still be outstanding.
 
 As there are outstanding actions remaining, the case remains in the listing indicating what action is required. The case will not be removed from your list until all actions have been completed.
 
@@ -45,17 +45,17 @@ As there are outstanding actions remaining, the case remains in the listing indi
 
 ## Adding Notes To A Trigger
 
-If you have taken action on a trigger but cannot resolve it immediately, the actions you have taken should be entered via the ‘notes’ tab. By clicking on the ‘notes’ tab the resultant screen allows you to enter the details in a dialogue box.
+If you have taken action on a trigger but cannot resolve it immediately, the actions you have taken should be entered via the 'notes' tab. By clicking on the 'notes' tab the resultant screen allows you to enter the details in a dialogue box.
 
 ![Trigger notes](image6.png)
 
-By clicking on the ‘add note’ button you are presented with a confirmation screen. ‘Yes’ updates the notes for the case and returns you to the summary error list. ‘No’ returns you to the summary error list without updating the case record within Bichard 7.
+By clicking on the 'add note' button you are presented with a confirmation screen. 'Yes' updates the notes for the case and returns you to the summary error list. 'No' returns you to the summary error list without updating the case record within Bichard 7.
 
 ![Trigger notes](image7.png)
 
 If a note is longer than 1000 characters it will appear split into multiple notes. The notes will be split at the nearest word boundary to 1000 characters, to prevent a word from being cut in half.
 
-Each new note will start with a count to indicate which note in the sequence it is (i.e. “(1/2) …”) and the new notes will be ordered such that when read, they follow on logically from one to the next. If a new note has a note after it in the sequence (i.e. note 1 out of 2), it will have an ellipsis (…) appended to the note text to indicate that the note/sentence continues in the next note. Similarly, if a new note has a note prior to it in the sequence (i.e. note 2 out of 2), it will have an ellipsis prepended to the note text to indicate that it is the continuation of a previous note/sentence.
+Each new note will start with a count to indicate which note in the sequence it is (i.e. "(1/2) …") and the new notes will be ordered such that when read, they follow on logically from one to the next. If a new note has a note after it in the sequence (i.e. note 1 out of 2), it will have an ellipsis (…) appended to the note text to indicate that the note/sentence continues in the next note. Similarly, if a new note has a note prior to it in the sequence (i.e. note 2 out of 2), it will have an ellipsis prepended to the note text to indicate that it is the continuation of a previous note/sentence.
 
 Note: Text in the Notes Field is not archived and therefore not recoverable once the case has been archived
 
@@ -67,7 +67,7 @@ Select and click on the name of the defendant you wish to transfer.
 
 ![Trigger list](image8.png)
 
-Click on the ‘Case’ tab and then click on the Reallocate Case button.
+Click on the 'Case' tab and then click on the Reallocate Case button.
 
 ![Reallocate case button](image9.png)
 

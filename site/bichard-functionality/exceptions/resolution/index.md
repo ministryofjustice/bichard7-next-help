@@ -25,7 +25,7 @@ Any error which is not listed here should be reported to the MoJ DTSD for invest
 The Bichard 7 system provides triggers as a means of identifying situations where actions need to be taken as a consequence of receiving a case. The way in which Bichard 7 processes results is: 
 
 - For all cases the solution fires any appropriate triggers (e.g. DD page, or bail triggers); 
-- For all cases received, the solution runs ‘validation’ checks to ensure that the case is ‘correct’ (e.g. the ASN is correctly formatted and the ASN exists on PNC); 
+- For all cases received, the solution runs 'validation' checks to ensure that the case is 'correct' (e.g. the ASN is correctly formatted and the ASN exists on PNC); 
 - For all cases that pass validation, the solution removes any offences and results that are not required on PNC; 
 - For all cases that passed validation and are recordable, the solution attempts to update PNC; and, finally, 
 - For all successful updates, the solution then fires any appropriate update triggers. 
@@ -35,14 +35,14 @@ The Bichard 7 system provides triggers as a means of identifying situations wher
 | HO100102 | Bad Date |
 |----------|----------|
 | Description | A date entered in the hearing is incorrectly formatted. Bichard 7 expects to receive dates in the format: DD/MM/YY. |
-| Cause | This is a general error but the usual cause is that the user has manually entered the “Next Hearing Date” for a Remand in an incorrect format. |
+| Cause | This is a general error but the usual cause is that the user has manually entered the "Next Hearing Date" for a Remand in an incorrect format. |
 | Correcting this error | Correct the value and resubmit. |
 | Avoiding this error | Ensure dates are entered in the Portal in DD/MM/YY format. |
 
 | HO100200 | Invalid Organisation Unit Code |
 |----------|----------|
 | Description | A court house code or a force/station code has not been recognised by Bichard 7. |
-| Cause | The usual cause is that the user has manually entered the “Next Hearing Location” for a Remand in an incorrect format. This error can also occur in conjunction with HO100206 Bad ArrestSummonsNumber – if the Force/Station code parsed from the ASN is not valid – refer to HO100206 for the resolution. |
+| Cause | The usual cause is that the user has manually entered the "Next Hearing Location" for a Remand in an incorrect format. This error can also occur in conjunction with HO100206 Bad ArrestSummonsNumber – if the Force/Station code parsed from the ASN is not valid – refer to HO100206 for the resolution. |
 | Correcting this error | Enter the seven character code for the court (e.g. B01AF00) and resubmit. |
 | Avoiding this error | Ensure court codes are entered in the correct format. |
 
@@ -56,7 +56,7 @@ The Bichard 7 system provides triggers as a means of identifying situations wher
 | HO100206 | Bad Arrest Summons Number |
 |----------|----------|
 | Description | This error means that the Arrest Summons Number (ASN) provided by the court is badly formatted with either too many characters, too few characters or with the final character being inconsistent with the rest of the ASN. |
-| Cause | The correct format for an ASN is 20 characters long. The last digit is a check character used to ensure that the previous 19 characters have been entered correctly and thus its correct value depends on the rest of the characters in the ASN. Currently Libra does not accept the shortened format and will replace short format ASNs with dummy ASNs. Bichard 7 can accept long format ASNs (i.e. the full 20 characters), short format ASNs (which contain the first eight digits/characters followed by a number and a check digit) and short format with slashes (like the short format but allowing the ‘/’ character between various sections of the number). This error will occur if the ASN is:{::nomarkdown}<ul><li>Not exactly 20 characters long and cannot be expanded from a valid short format to 20 characters (e.g. if there is no final check character).</li><li>The check character is inconsistent with the rest of the number.</li></ul>{:/}A malformed ASN can only occur when it has been entered manually onto Libra as Libra does not check the format of the ASN. This could occur at the courts or through Third Party Access to Libra. This error should not occur for ASNs for cases passed over the Police Case Prep to Libra link. By correcting the ASN, this error will be fixed. This exception can also occur when a force updates the ASN in the portal by entering an incorrectly formatted ASN. |
+| Cause | The correct format for an ASN is 20 characters long. The last digit is a check character used to ensure that the previous 19 characters have been entered correctly and thus its correct value depends on the rest of the characters in the ASN. Currently Libra does not accept the shortened format and will replace short format ASNs with dummy ASNs. Bichard 7 can accept long format ASNs (i.e. the full 20 characters), short format ASNs (which contain the first eight digits/characters followed by a number and a check digit) and short format with slashes (like the short format but allowing the '/' character between various sections of the number). This error will occur if the ASN is:{::nomarkdown}<ul><li>Not exactly 20 characters long and cannot be expanded from a valid short format to 20 characters (e.g. if there is no final check character).</li><li>The check character is inconsistent with the rest of the number.</li></ul>{:/}A malformed ASN can only occur when it has been entered manually onto Libra as Libra does not check the format of the ASN. This could occur at the courts or through Third Party Access to Libra. This error should not occur for ASNs for cases passed over the Police Case Prep to Libra link. By correcting the ASN, this error will be fixed. This exception can also occur when a force updates the ASN in the portal by entering an incorrectly formatted ASN. |
 | Correcting this error | Best practice for correcting this error is by entering the correct ASN into the space provided on the portal and resubmitting the case. Alternatively the error can be marked as manually resolved and the result entered manually onto PNC. In addition, as a matter of best practice, forces are advised to update Libra with the correct ASN when this first occurs (using Third Party Access or by advising the court). This means that any subsequent results for this case will come with the corrected ASN. |
 | Avoiding this error | Generally this error should be avoided by the use of the link between the Police Case Preparation system and Libra. |
 
@@ -72,7 +72,7 @@ The Bichard 7 system provides triggers as a means of identifying situations wher
 | Description | There is no sequence number or the sequence number is a zero. |
 | Cause | The court has entered no sequence number or a zero into Libra. |
 | Correcting this error | If using the portal to correct the error, the user can amend the sequence numbers and the case resubmitted from the Bichard 7 portal. |
-| Avoiding this error | The situation should then be raised with the Magistrates’ court so that the user who made this error can be informed and avoid making this mistake in the future. |
+| Avoiding this error | The situation should then be raised with the Magistrates' court so that the user who made this error can be informed and avoid making this mistake in the future. |
 
 | HO100243 | Bad Amount Specified In Result amount |
 |----------|----------|
@@ -119,10 +119,10 @@ The Bichard 7 system provides triggers as a means of identifying situations wher
 
 | HO100304 | Court offences do not match with what is on PNC |
 |----------|----------|
-| Description | Both the offence code and the start and end dates must match to constitute an offence match*. It is therefore worth noting that ‘court Offences do not match’ can refer to the start and/or end dates and not only to the offence. *This is generally true but there are specific rules to deal with breach offences which do not have an offence date at court, and offence date ranges where the court range is more precise than that held on the PNC. |
+| Description | Both the offence code and the start and end dates must match to constitute an offence match*. It is therefore worth noting that 'court Offences do not match' can refer to the start and/or end dates and not only to the offence. *This is generally true but there are specific rules to deal with breach offences which do not have an offence date at court, and offence date ranges where the court range is more precise than that held on the PNC. |
 | Cause | This can occur due to:{::nomarkdown}<ul><li>Police not ensuring that the offences on PNC are the offences with which the defendant has been charged (as opposed to the arrest offences). The Police have to ensure that the offences passed to the court match with the offences on PNC.</li><li>Changes in offences at court (e.g. offences replaced) not being resulted correctly on Libra by court staff.</li><li>Differences between the offence dates on Libra and PNC (e.g. the date is changed in court).</li>{:/} |
 | Correcting this error | If the offences do appear to match then check the offence dates. The most effective way of dealing with this error is to manually result on PNC. |
-| Avoiding this error | Depending on the underlying cause:{::nomarkdown}<ul><li>Police to ensure that offences passed to the court match those on PNC for the hearing.</li><li>court staff to result ‘offences replaced’ correctly.</li></ul>{:/} |
+| Avoiding this error | Depending on the underlying cause:{::nomarkdown}<ul><li>Police to ensure that offences passed to the court match those on PNC for the hearing.</li><li>court staff to result 'offences replaced' correctly.</li></ul>{:/} |
 
 | HO100305 | Conviction/Hearing dates and/or Verdict do not make sense |
 |----------|----------|
@@ -136,7 +136,7 @@ The Bichard 7 system provides triggers as a means of identifying situations wher
 | Description | If Bichard 7 receives an offence code from Libra that it does not recognise then this error will occur. |
 | Cause | In most cases this will be because a local offence code has been set up and Bichard 7 is unaware of the code. In particular, Bichard 7 will not be aware whether this is a recordable or non-recordable offence. As a consequence the result has to become an exception. This can lead to the perception that non-recordable offences are being put into the portal whereas the problem is that Bichard 7 does not know if the offence is non-recordable or not. |
 | Correcting this error | The user has to result the case manually on PNC if the offence is recordable, but can simply dismiss it from the portal if the offence is non-recordable. |
-| Avoiding this error | Inform the helpdesk of any missing local offences so that they can be added to the system. Processes have now been put in place to manage ‘local’ offence codes nationally; and this ensures that Bichard 7 is updated with all new codes. |
+| Avoiding this error | Inform the helpdesk of any missing local offences so that they can be added to the system. Processes have now been put in place to manage 'local' offence codes nationally; and this ensures that Bichard 7 is updated with all new codes. |
 
 | HO100309 | Result Code Qualifier not found (Lookup failed) |
 |----------|----------|
@@ -162,14 +162,14 @@ The Bichard 7 system provides triggers as a means of identifying situations wher
 | HO100314 | PNC Query returned a system fault (e.g. returned an unexpected error code) |
 |----------|----------|
 | Description | This is a general error message that can cover a number of more specific errors. To determine the more specific error you need to look at the PNC Errors tab. |
-| Cause | The most common cause of this error is where no disposal group is set up on PNC. If this is not done then there will be “unlinked offences” on PNC and Bichard 7 cannot put the result onto PNC. If the PNC error tab refers to “NO SUITABLE COURT DISPOSAL GROUPS ARE ASSOCIATED WITH ARREST SUMMONS” then this is a ‘disposal groups’ error. A less frequent cause of this error is when PNC has more than three court cases for this ASN (due to split cases). When PNC is queried for the ASNs associated with the result it fails to provide any ASNs and we get this error. This error can also be associated with a Penalty Notice Hearing as a PENHRG can only be updated when there is a judgement with a final result. |
+| Cause | The most common cause of this error is where no disposal group is set up on PNC. If this is not done then there will be "unlinked offences" on PNC and Bichard 7 cannot put the result onto PNC. If the PNC error tab refers to "NO SUITABLE COURT DISPOSAL GROUPS ARE ASSOCIATED WITH ARREST SUMMONS" then this is a 'disposal groups' error. A less frequent cause of this error is when PNC has more than three court cases for this ASN (due to split cases). When PNC is queried for the ASNs associated with the result it fails to provide any ASNs and we get this error. This error can also be associated with a Penalty Notice Hearing as a PENHRG can only be updated when there is a judgement with a final result. |
 | Correcting this error | Go onto PNC and create the disposal by entering the hearing location. The user can then resubmit the result from the portal or, probably more efficiently, result manually on PNC. If the cause is down to more than three court cases then the result will have to be put on PNC manually. |
 | Avoiding this error | Look at the business processes within the Case Preparation team and ensure that they understand that they must create disposal groups by creating a hearing location and date for the case. There is nothing the user can do to avoid this error when there are more than three court cases. |
 
 | HO100321 | Dummy ASN not allowed when Offences/Results are recordable |
 |----------|----------|
 | Description | A dummy ASN is provided to Bichard 7 by Libra when either no ASN is provided or an incorrectly formatted ASN is entered. There are two formats depending on whether the case is a Police prosecution or a non-Police prosecution. In order to update PNC a valid ASN is required. Dummy ASNs can be recognised as starting with the characters 0800NP00 or 0800PP00. |
-| Cause | The error can occur because:{::nomarkdown}<ul><li>A non-Police prosecutor has failed to obtain an ASN.</li><li>A paper MG4 has been used to pass the case from the Police to the courts. This can happen for certain types of offence or if the electronic link between the Police Case Prep system and Libra has failed. The error then occurs if the ASN is absent on the MG4 or incorrectly entered so the court staff cannot enter a correctly formatted one or if the court staff make a typing mistake.</li><li>Police staff have entered the case via Libra 3PA and have made a typing mistake on entering the ASN.</li><li>court staff have cut/pasted the ASN from an email and included non- standard characters (e.g.’ /’) or spaces at the end of the ASN.</li></ul>{:/}A common cause of this error is when the Police use a shorthand form of the ASN (which often includes slashes). As this is less than 20 digits Libra treats this as invalid and replaces it with the dummy ASN. It is also important to ensure that the ASN is being entered on Libra in the correct place at case level and not at offence level. If it is input at case level it copies to offence level. If it is entered or amended at offence level it DOES NOT copy to case level. Libra and the courts do not use the ASN other than to be able to export the result to Police Case Prep or to PNC via Bichard 7. It only takes the ASN from the CASE LEVEL and ignores offence level ASNs. The only place Bichard 7 has asked courts to check if there is an ASN is at CASE LEVEL. Libra substitutes dummy ASNs based on whether the ASN is missing (case level ASN field is blank) or present but incorrect (the field is filled with an incorrect value). Furthermore, it also uses the classification of the prosecutor (the Libra ‘prosecutor type’) to determine whether to use the ‘PP’ or ‘NP’ dummy ASN. |
+| Cause | The error can occur because:{::nomarkdown}<ul><li>A non-Police prosecutor has failed to obtain an ASN.</li><li>A paper MG4 has been used to pass the case from the Police to the courts. This can happen for certain types of offence or if the electronic link between the Police Case Prep system and Libra has failed. The error then occurs if the ASN is absent on the MG4 or incorrectly entered so the court staff cannot enter a correctly formatted one or if the court staff make a typing mistake.</li><li>Police staff have entered the case via Libra 3PA and have made a typing mistake on entering the ASN.</li><li>court staff have cut/pasted the ASN from an email and included non- standard characters (e.g.' /') or spaces at the end of the ASN.</li></ul>{:/}A common cause of this error is when the Police use a shorthand form of the ASN (which often includes slashes). As this is less than 20 digits Libra treats this as invalid and replaces it with the dummy ASN. It is also important to ensure that the ASN is being entered on Libra in the correct place at case level and not at offence level. If it is input at case level it copies to offence level. If it is entered or amended at offence level it DOES NOT copy to case level. Libra and the courts do not use the ASN other than to be able to export the result to Police Case Prep or to PNC via Bichard 7. It only takes the ASN from the CASE LEVEL and ignores offence level ASNs. The only place Bichard 7 has asked courts to check if there is an ASN is at CASE LEVEL. Libra substitutes dummy ASNs based on whether the ASN is missing (case level ASN field is blank) or present but incorrect (the field is filled with an incorrect value). Furthermore, it also uses the classification of the prosecutor (the Libra 'prosecutor type') to determine whether to use the 'PP' or 'NP' dummy ASN. |
 | Correcting this error | If the cause is that a recordable offence has not been notified to the Police by a non-Police prosecutor this requires the Police to set the case up on PNC. The resulting ASN can either be entered onto the portal and the result resubmitted or, probably less work, the police enter the result directly onto PNC after setting up the case. If the cause is an incorrect or mistyped ASN, the Police need to identify the correct ASN and this can be typed into the portal and the result resubmitted. |
 | Avoiding this error | Ensuring that Non-Police prosecutors obtain ASNs will dramatically reduce the occurrence of this error. |
 
@@ -279,9 +279,9 @@ The Bichard 7 system provides triggers as a means of identifying situations wher
 | HO100402 #5 | PNC Update Error I0191 – COMBINATION OF ELEMENTS IN ADJ AND DIS IS INVALID |
 |----------|----------|
 | Description | The combination of elements is inconsistent according to the PNC. |
-| Cause | One example is a plea of “indicated guilty” – leading Bichard 7 to try and update the PNC with a guilty plea and verdict – together with a result of remanded to Crown Court for trial (implying there is no verdict yet). |
+| Cause | One example is a plea of "indicated guilty" – leading Bichard 7 to try and update the PNC with a guilty plea and verdict – together with a result of remanded to Crown Court for trial (implying there is no verdict yet). |
 | Correcting this error | The user will have to result manually. |
-| Avoiding this error | The issue of how to capture “indicated guilty” pleas is being investigated. |
+| Avoiding this error | The issue of how to capture "indicated guilty" pleas is being investigated. |
 
 | HO100402 #6 | PNC Update Error I1036 – Error encountered processing update |
 |----------|----------|
@@ -302,7 +302,7 @@ The Bichard 7 system provides triggers as a means of identifying situations wher
 | Description | The PNC has returned a warning message. Look at the PNC Errors tab for details (warnings are displayed on this tab alongside the errors). |
 | Cause | If the PNC only returns warnings then the update has been successful and no exception is raised. This exception only occurs when a warning has been returned in conjunction with an error – the user should refer to the error on the PNC Errors tab and see HO100401 / HO100402 for further details. |
 | Correcting this error | See HO100401 / HO100402. |
-| Avoiding this error | See HO100401 / HO100402. This exception will be removed in a future release of Bichard 7 as it provides no additional information and the “warning” masks the underlying “PNC error” (Ref. RCD587). |
+| Avoiding this error | See HO100401 / HO100402. This exception will be removed in a future release of Bichard 7 as it provides no additional information and the "warning" masks the underlying "PNC error" (Ref. RCD587). |
 
 | HO100404 | PNC Update failed (e.g. communications failure, timeout) |
 |----------|----------|
@@ -335,7 +335,7 @@ The Bichard 7 system provides triggers as a means of identifying situations wher
 | HO200108 | Insufficient information to create reference for 'Refer to court Case'. |
 |----------|----------|
 | Description | A replacement offence is missing. |
-| Cause | When adding an offence, Bichard 7 must refer to a court case. A result of (2060) ‘Replaced with another offence’ is received but there is not a replacement offence in the result. |
+| Cause | When adding an offence, Bichard 7 must refer to a court case. A result of (2060) 'Replaced with another offence' is received but there is not a replacement offence in the result. |
 | Correcting this error | The resolution is for the user to enter the result manually on PNC. |
 | Avoiding this error | The underlying cause should be investigated and if necessary business process changes be put in place. |
 

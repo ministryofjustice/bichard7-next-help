@@ -30,7 +30,7 @@ The procedure to follow is:
 If the correct Force Owner or ASN is available (for instance on paperwork or from PNC) and if the portal allows the Force Owner or ASN to be corrected then these should be fixed and the case resubmitted. The case will then be sent to the correct force. Otherwise; 
 
 If the exception is straightforward, the force that received it should result the case itself. Otherwise; 
-A copy of the register should be sent to the owning force and the exception marked as ‘Manually Resolved’. 
+A copy of the register should be sent to the owning force and the exception marked as 'Manually Resolved'. 
 
 ## Ensuring Completeness
 
@@ -84,17 +84,17 @@ If you have resolved the exception on the portal click on the 'submit' button at
 
 ![Submit confirmation](image4.png)
 
-When the case has been submitted your error list is updated and the reason heading for that entry shows ‘submitted’. By clicking on the refresh button (or F5) the entry will disappear if successfully submitted and no further action is necessary. If not successfully submitted the entry will re-appear with updated actions required.
+When the case has been submitted your error list is updated and the reason heading for that entry shows 'submitted'. By clicking on the refresh button (or F5) the entry will disappear if successfully submitted and no further action is necessary. If not successfully submitted the entry will re-appear with updated actions required.
 
 ![Submitted state](image5.png)
 
-If you do not amend the entry but submit the entry to PNC the same confirmation screen appears but with an added box for you to check and it informs you the entry has not been updated and invites you to submit the entry anyway to PNC. If the update is successful the error list will display ‘submitted’ and if refreshed the entry will disappear. If unsuccessful the entry will re-appear when the list is refreshed.
+If you do not amend the entry but submit the entry to PNC the same confirmation screen appears but with an added box for you to check and it informs you the entry has not been updated and invites you to submit the entry anyway to PNC. If the update is successful the error list will display 'submitted' and if refreshed the entry will disappear. If unsuccessful the entry will re-appear when the list is refreshed.
 
 ![Amend confirmation](image6.png)
 
 ## Marking a case as manually resolved on the PNC
 
-If you have manually resolved the error click the ‘mark as manually resolved’ button at the bottom of the screen. This shows you a resolution screen with a drop down list of commonly used manual resolutions. Please ensure the correct option is chosen as it will affect your automation rate. Click OK and the entry will no longer appear on your active error list.
+If you have manually resolved the error click the 'mark as manually resolved' button at the bottom of the screen. This shows you a resolution screen with a drop down list of commonly used manual resolutions. Please ensure the correct option is chosen as it will affect your automation rate. Click OK and the entry will no longer appear on your active error list.
 
 ## Returning to the error list
 
@@ -104,7 +104,7 @@ If you resubmit the exception then you are always automatically returned to the 
 
 ## Exceptions List
 
-Pre Hearing Publication Errors (‘validation’ errors) - Error Codes & Messages:
+Pre Hearing Publication Errors ('validation' errors) - Error Codes & Messages:
 
 | Error ID | Message |
 |----------|---------|
