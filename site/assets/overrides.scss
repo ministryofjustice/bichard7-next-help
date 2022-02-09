@@ -4,6 +4,8 @@ img{
     max-width:80%;
 }
 
-#exceptionResolution table td:first-child {
-    width:25%
+#exceptionResolution, #triggerList{
+    table td:first-child {
+        width:25%
+    }
 }
