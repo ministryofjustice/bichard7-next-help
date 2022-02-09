@@ -5,7 +5,12 @@ mappings = {
     'h4' => 'govuk-heading-s',
     'p'  => 'govuk-body',
     'a'  => 'govuk-link',
-    'ul' => 'govuk-list govuk-list--bullet'
+    'ul' => 'govuk-list govuk-list--bullet',
+    'table' => 'govuk-table',
+    'thead' => 'govuk-table__head',
+    'tr' => 'govuk-table__row',
+    'th' => 'govuk-table__header',
+    'td' => 'govuk-table__cell'
 }
 
 Jekyll::Hooks.register :pages, :post_render do |document|
