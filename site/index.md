@@ -20,6 +20,7 @@ Welcome to the Bichard 7 documentation site.
     * [Useful Tips](bichard-functionality/useful-tips/)
     * [How Bichard updates the PNC](bichard-functionality/how-bichard-updates-pnc/)
     * [Exceptions](bichard-functionality/exceptions/)
+        * [Exception Resolution](bichard-functionality/exceptions/resolution)
     * [Triggers](bichard-functionality/triggers/)
 - [Supervisors](supervisors/)
 - [Glossary](glossary/)
