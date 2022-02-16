@@ -14,7 +14,7 @@ id: triggerList
 |------------|----------|
 | Trigger description | Warrant issued |
 | PNC screen to update | Wanted / Missing |
-| CJS result code | {::nomarkdown}<ul><li>4575 Warrant for Offence Backed for Bail (Dated) *</li><li>4575 Warrant for Offence Backed for Bail (Dated) *</li><li>4576 Warrant for Offence Not Backed for Bail (Undated) *</li><li>4577 Warrant for Offence Backed for Bail (Undated) *</li><li>4585 Warrant for Arrest of Parent / Guardian *</li><li>4586 Warrant for Arrest of Witness *</li><li>*AND Result Qualifier is not 'EO' - Warrant allocated to civilian enforcement officer</li></ul>{:/} |
+| CJS result code | {::nomarkdown}<ul><li>4575 Warrant for Offence Backed for Bail (Dated) *</li><li>4576 Warrant for Offence Not Backed for Bail (Undated) *</li><li>4577 Warrant for Offence Backed for Bail (Undated) *</li><li>4585 Warrant for Arrest of Parent / Guardian *</li><li>4586 Warrant for Arrest of Witness *</li><li>*AND Result Qualifier is not 'EO' - Warrant allocated to civilian enforcement officer</li></ul>{:/} |
 
 | Trigger ID | TRPR0003 |
 |------------|----------|
@@ -94,12 +94,6 @@ id: triggerList
 | PNC screen to update | Bail screen |
 | CJS result code | {::nomarkdown}<ul><li>4017 Commit to Crown Court for sentence in custody with bail direction</li><li>4046 Remand in custody with direction to release on bail</li><li>4055 Remand In Youth Detention Accommodation With Bail Direction</li><li>4561 Commit/Transfer/Send to Crown Court for Trial in custody with direction to release on bail</li></ul>{:/} |
 
-| Trigger ID | TRPR0019 |
-|------------|----------|
-| Trigger description | Remanded in custody with bail direction |
-| PNC screen to update | Bail screen |
-| CJS result code |  |
-
 | Trigger ID | TRPR0020 |
 |------------|----------|
 | Trigger description | Breach offence |
@@ -135,12 +129,6 @@ id: triggerList
 | Trigger description | Original Case Reopened/stat dec made |
 | PNC screen to update | Update original case with conviction and sentence details |
 | CJS result code | {::nomarkdown}<ul><li>Offence code MC80524 together with Result Code 4584</li><li>OR Offence code MC80527 together with Result Code 3049</li></ul>{:/} |
-
-| Trigger ID | TRPR0025 |
-|------------|----------|
-| Trigger description | Original Case Reopened/stat dec made |
-| PNC screen to update | Update original case with conviction and sentence details |
-| CJS result code |  |
 
 | Trigger ID | TRPR0026 |
 |------------|----------|
