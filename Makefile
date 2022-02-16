@@ -16,4 +16,4 @@ run: install
 
 .PHONY: test
 test: build
-	$(DOCKER_EXEC_CMD) bundle exec htmlproofer --disable-external ./_site
+	$(DOCKER_EXEC_CMD) bundle exec htmlproofer --disable-external ./_site --url-swap '^/help/:/'
