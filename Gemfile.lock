@@ -52,13 +52,13 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-    nokogiri (1.14.0-aarch64-linux)
+    nokogiri (1.13.10-aarch64-linux)
       racc (~> 1.4)
-    nokogiri (1.14.0-arm64-darwin)
+    nokogiri (1.13.10-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.14.0-x86_64-darwin)
+    nokogiri (1.13.10-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.14.0-x86_64-linux)
+    nokogiri (1.13.10-x86_64-linux)
       racc (~> 1.4)
     parallel (1.21.0)
     pathutil (0.16.2)
@@ -90,7 +90,7 @@ PLATFORMS
 DEPENDENCIES
   html-proofer
   jekyll (~> 4.2.1)
-  nokogiri (~> 1.14)
+  nokogiri (~> 1.13.9)
   webrick (~> 1.7)
 
 BUNDLED WITH
