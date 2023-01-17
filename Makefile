@@ -8,7 +8,7 @@ install:
 
 .PHONY: build
 build: install
-	$(DOCKER_EXEC_CMD) bundle exec jekyll build --trace
+	$(DOCKER_EXEC_CMD) bundle exec jekyll build 
 
 .PHONY: run
 run: install
