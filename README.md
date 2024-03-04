@@ -1,10 +1,12 @@
 # bichard7-next-help
+
 A static site containing the help files for Bichard 7, built with Jekyll
 
-# Running locally
+## Running locally
+
 To run the site locally for development, run
 
-```
+```bash
 make run
 ```
 
@@ -12,6 +14,6 @@ This will install, build and run the site with Jekyll and run the dev server in 
 
 To test the built site and make sure there are no dead links / images, run:
 
-```
+```bash
 make test
 ```
