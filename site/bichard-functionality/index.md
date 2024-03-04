@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Bichard 7 Functionality
+title: Functionality
 ---
 
 The Bichard 7 application operates in the same way as it has previously.

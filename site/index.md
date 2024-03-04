@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Bichard 7 Documentation
+title: Help
 ---
 
 Welcome to the Bichard 7 documentation site.
