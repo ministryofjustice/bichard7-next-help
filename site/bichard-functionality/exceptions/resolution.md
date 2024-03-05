@@ -69,6 +69,13 @@ The Bichard 7 system provides triggers as a means of identifying situations wher
 | Correcting this error | Correct the value and resubmit. |
 | Avoiding this error | The error should be investigated and the cause explored. |
 
+| <span id="HO100232">HO100232</span> |  Bad Location Of Offence  |
+|----------|----------|
+| Description | The Location code is either too long or short |
+| Cause | The offence location has to be a valid length, between 1 and 80 characters |
+| Correcting this error | The issue should be raised with the Bichard 7 support team |
+| Avoiding this error | There is nothing the user can do to avoid this error. |
+
 | <span id="HO100239">HO100239</span> | Bad Court Offence Sequence Number |
 |----------|----------|
 | Description | There is no sequence number or the sequence number is a zero. |
