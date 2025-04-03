@@ -21,11 +21,14 @@ echo "Unarchiving latest release"
 tar -xzf $TMPDIR/govuk-frontend.tar.gz -C $TMPDIR/govuk-frontend
 
 echo "Copying files"
-cp -r $TMPDIR/govuk-frontend/**/package/govuk site/_sass/govuk
+
+# Copying Scss files
+cp -r $TMPDIR/govuk-frontend/**/packages/govuk-frontend/src/govuk site/_sass/govuk
 find site/_sass/govuk -type f -not -name '*.scss' -delete
+
+# Copying JS files
 cp -r $TMPDIR/govuk-frontend/**/dist/assets site/assets/govuk
-cp $TMPDIR/govuk-frontend/**/dist/govuk-frontend-*.min.js site/assets/govuk/govuk-frontend.min.js
-cp $TMPDIR/govuk-frontend/**/package/package.json site/_sass/govuk
-rm -rf site/_sass/govuk/vendor/polyfills site/_sass/govuk/template.njk
+cp $TMPDIR/govuk-frontend/**/dist/govuk-frontend-*.min.js site/assets/govuk/
+cp $TMPDIR/govuk-frontend/**/dist/govuk-frontend-*.min.js.map site/assets/govuk/
 
 rm -rf $TMPDIR
