@@ -2,7 +2,6 @@ source: site
 baseurl: "/help" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -18,3 +17,6 @@ exclude:
   - Gemfile.lock
   - node_modules/
   - vendor
+
+sass:
+  quiet_deps: true

@@ -4,4 +4,4 @@
 $baseurl: "{{ site.baseurl }}";
 $govuk-assets-path: "{{ site.baseurl }}/assets/govuk/assets/";
 
-@import "govuk/index";
+@use "govuk/index";
