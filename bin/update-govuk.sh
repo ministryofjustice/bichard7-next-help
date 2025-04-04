@@ -31,4 +31,12 @@ cp -r $TMPDIR/govuk-frontend/**/dist/assets site/assets/govuk
 cp $TMPDIR/govuk-frontend/**/dist/govuk-frontend-*.min.js site/assets/govuk/
 cp $TMPDIR/govuk-frontend/**/dist/govuk-frontend-*.min.js.map site/assets/govuk/
 
+# Remove version number from the filename and references in the file
+mv site/assets/govuk/govuk-frontend-*.min.js site/assets/govuk/govuk-frontend.min.js
+mv site/assets/govuk/govuk-frontend-*.min.js.map site/assets/govuk/govuk-frontend.min.js.map
+sed -i '' 's/govuk-frontend-[0-9.]*\.min\.js\.map/govuk-frontend\.min\.js\.map/g' site/assets/govuk/govuk-frontend.min.js
+sed -i '' 's/govuk-frontend-[0-9.]*\.min\.js/govuk-frontend\.min\.js/g' site/assets/govuk/govuk-frontend.min.js.map
+
 rm -rf $TMPDIR
+
+echo "Finished"
