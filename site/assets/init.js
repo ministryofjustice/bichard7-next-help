@@ -4,6 +4,6 @@ document.body.className +=
     ? " govuk-frontend-supported"
     : "");
 
-import { initAll } from "./govuk/govuk-frontend-5.9.0.min.js";
+import { initAll } from "./govuk/govuk-frontend.min.js";
 
 initAll();
