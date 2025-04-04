@@ -1,7 +1,6 @@
 ---
 ---
 
-$baseurl: "{{ site.baseurl }}";
-$govuk-assets-path: "{{ site.baseurl }}/assets/govuk/assets/";
-
-@use "govuk/index";
+@use "govuk/index" with (
+  $govuk-assets-path: "{{ site.baseurl }}/assets/govuk/assets/"
+);
