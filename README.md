@@ -20,12 +20,10 @@ make test
 
 ## Updating the `govuk-frontend`
 
-We have a script which update the version, you can run this by:
+Run the following script that updates the package to the latest version:
 
 ```bash
 ./bin/update-govuk.sh
 ```
 
-You will have to manually rename the JS files in the `site/assets/init.js` to match the version in the `site/assets/govuk` folder
-
-You will have to go [GOV.UK Frontend](https://frontend.design-system.service.gov.uk/installing-with-npm/#get-the-javascript-working) to see if any of the commands for initialisation of the JS.
+You will have to go [GOV.UK Frontend](https://frontend.design-system.service.gov.uk/installing-with-npm/#get-the-javascript-working) to see if any of the commands for initialisation of the JS. If you need to change anything see this JS file `site/assets/init.js`.
