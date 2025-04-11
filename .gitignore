@@ -1,7 +1,0 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
-!site/_sass/govuk/vendor
-.DS_Store
